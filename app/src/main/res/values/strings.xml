@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">09.Localization</string>
+
+    <string name="cloum_name_1">Have Fun</string>
+    <string name="column_name_2">Do Something</string>
+    <string name="column_name_3">Clicl Here</string>
+    <string name="column_name_4">Surprise</string>
+</resources>

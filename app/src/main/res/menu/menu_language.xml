@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnVietName"
+        android:icon="@drawable/ic_vietnam"
+        android:title="Việt Nam"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnManula"
+        android:icon="@drawable/ic_manula_languages"
+        android:title="Manula"
+        app:showAsAction="never" />
+</menu>

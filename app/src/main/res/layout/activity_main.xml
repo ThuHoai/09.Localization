@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_marginTop="10dp"
+    android:stretchColumns="0"
+    tools:context="com.example.hoaiktt.a09localization.MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/btn_with"
+            android:layout_height="@dimen/btn_height"
+            android:textSize="@dimen/btn_text_size"
+            android:text="@string/cloum_name_1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/btn_with"
+            android:layout_height="@dimen/btn_height"
+            android:textSize="@dimen/btn_text_size"
+            android:text="@string/column_name_2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/btn_with"
+            android:layout_height="@dimen/btn_height"
+            android:textSize="@dimen/btn_text_size"
+            android:text="@string/column_name_3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/btn_with"
+            android:textSize="@dimen/btn_text_size"
+
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/column_name_4" />
+    </TableRow>
+</TableLayout>
